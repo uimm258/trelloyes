@@ -1,8 +1,11 @@
-import CardList from "../../cardList.js"
+
 import './Card.css'
+import React from 'react'
+
 function Card(title, content){
     return(
-        <div className="Card">
+    <div className="Card">
+        <button type='button'>delete</button>
         <h3>{title}</h3>
         <p>{content}</p>
     </div>
